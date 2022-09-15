@@ -1,0 +1,121 @@
+/*
+COLOR PALETTE
+#fcaa12 - orange
+#a1aed7 - a little darker periwinkle
+#ffdcb1 - tan
+#b7dd5e - lime-ish green
+#162b03 - dark green
+#210124 - dark purple
+*/
+
+/* Global Styles
+------------------------ */
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a{
+    color: #162b03;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h1{ 
+    font-size: 85px;
+    text-shadow: -4px 2px #fff;
+    line-height: 1;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h1, h2{
+    font-family: 'Gochi Hand', cursive;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.content-wrap{
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+/* Profile
+------------------------ */
+header{
+    background-color: #fcaa12;
+    text-align: justify;
+    
+}
+
+/* Projects
+------------------------ */
+.projects{
+    background-color: #a1aed7;
+    color: #ffffff;
+}
+
+.projects .btn{
+    color: #ffffff;
+    background-color: #210124;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    }
+.projects .btn:hover{
+    background-color: #ffffff95;
+    color: #210124;
+}
+
+.project-item{
+    overflow: hidden;
+    border-top: 1px dashed #210124;
+    padding-top: 20px;
+}
+
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+
+/* Work experience
+------------------------ */
+.work-experience{
+    background-color: #ffdcb1;
+}
+
+
+/* Education
+------------------------ */
+
+
+
+/* Contact Info
+------------------------ */
+footer{
+    background-color: #b7dd5e;
+    color: #162b03;
+}
